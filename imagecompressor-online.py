@@ -3,6 +3,8 @@ import json
 
 url = "https://compressor.io/server/Lossless.php"
 
+# url = "https://compressor.io/server/Lossy.php"
+
 file_name = "sample.png"
 
 session = requests.Session()
