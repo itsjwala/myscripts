@@ -1,8 +1,13 @@
 import requests
 import json
 
+# X-rayed https://compressor.io/compress 
+# image format supported jpeg, png, gif, jpeg
+
+# for lossless compression
 url = "https://compressor.io/server/Lossless.php"
 
+# for lossy compression
 # url = "https://compressor.io/server/Lossy.php"
 
 file_name = "sample.png"
